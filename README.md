@@ -43,7 +43,7 @@ Clients -> Load Balancer (7520) -> Server 1 (7530) -> Server 2 (7531)
 
 ### Performance & Monitoring
 ![Cache Performance](screenshots/6_cache_performance.png)
-*Cache performance metrics showing 60% hit rate*
+*Cache performance metrics*
 
 ![System Monitoring](screenshots/8.png)
 *Real-time system health monitoring*
@@ -118,7 +118,7 @@ python3 test_system.py
 
 ## Performance Features
 
-- **LRU Cache**: 20-40% performance improvement for repeated queries
+- **LRU Cache**: Performance improvement for repeated queries
 - **Load Balancing**: Round-robin distribution across servers
 - **Health Monitoring**: Automatic failover to healthy servers
 - **Vector Clock Sync**: Eventual consistency across distributed servers
